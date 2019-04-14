@@ -11,7 +11,7 @@ print new_notas
 suma_notas = new_notas.inject(0) { |sum, x| sum + x }
 
 puts suma_notas
-
-promedio = suma_notas.to_f / 10
+#suma las notas y las divide por la cantidad de notas
+promedio = suma_notas.to_f / new_notas.count
 
 puts promedio
